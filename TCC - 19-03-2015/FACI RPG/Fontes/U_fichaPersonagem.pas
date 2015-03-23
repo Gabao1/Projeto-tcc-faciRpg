@@ -96,6 +96,7 @@ end;
 procedure TF_Personagem.FormCreate(Sender: TObject);
 begin
   // ativa a tb produtos
+  //comentario teste
   D_modulo.TB_Personagem.Active := true;
   // seto para iniciar na tela de consulta.
   Page_Personagem.ActivePage := tab_consultar;
